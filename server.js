@@ -23,5 +23,5 @@ console.log('API server started on: ' + port);
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var routes = require('./app/routes/approutes'); //importing route
+var routes = require('/app/routes/approutes'); //importing route
 routes(app); //register the route
