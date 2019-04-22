@@ -6,4 +6,5 @@ module.exports = function(app) {
   app
     .route("/suscribers")
     .get(suscriberList.list_all_suscribers)
+    .post(suscriberList.create_suscriber)
 };
