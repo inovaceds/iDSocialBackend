@@ -1,6 +1,6 @@
 "use strict";
 module.exports = function(app) {
-  var suscriberList = require("../controller/appController");
+  var suscriberList = require("./app/controller/appController");
 
   // todoList Routes
   app
